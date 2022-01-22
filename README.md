@@ -27,7 +27,7 @@ This is a long description. Add or delete fields as required for ease of use.
 
 ## Install
 
-This module depends upon a knowledge of [Markdown]().
+This module depends upon a knowledge of Markdown.
 
 ```
 ```
