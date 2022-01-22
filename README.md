@@ -1,7 +1,5 @@
 # SPIDR Alpha Control Interface 
 
-![banner]()
-
 ![badge]()
 [![standard-readme compliant](https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -41,19 +39,13 @@ This module depends upon a knowledge of [Markdown]().
 ```
 ```
 
-Note: The `license` badge image link at the top of this file should be updated with the correct `:user` and `:repo`.
-
 ### Any optional sections
 
 ## API
 
 ### Any optional sections
 
-## More optional sections
-
 ## Contributing
-
-See [the contributing file](CONTRIBUTING.md)!
 
 PRs accepted.
 
