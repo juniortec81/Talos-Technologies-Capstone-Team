@@ -1,0 +1,190 @@
+//base page css
+body {
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  height: 1em;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+header {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+section.logoleft {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+}
+section.iconright {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+  display: flex;
+  justify-content: right;
+}
+h1 {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  background: transparent;
+  font-size: 45px;
+}
+section.mainPage {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-top: 5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.grid-container {
+  display: grid;
+  height: 1em;
+  grid-template-rows: 1fr 5fr 5fr;
+  grid-template-columns: 1fr 5fr 1fr;
+  margin: 0.25em;
+
+  img {
+    width: 75px;
+    height: 60px;
+    margin: 5px;
+  }
+  svg {
+    display: grid;
+    width: 25%;
+    height: 25%;
+    border-radius: 1px;
+    color: rgb(255, 255, 255);
+  }
+}
+a {
+  text-decoration: none;
+}
+.tab {
+  display: inline-block;
+  margin-left: 50px;
+}
+.tab2 {
+  display: inline-block;
+  margin-left: 135px;
+}
+.tab3 {
+  display: inline-block;
+  margin-left: 125px;
+}
+// Start and stop buttons for SPIDR function
+section.start-stop-button {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  display: flex;
+  flex-flow: column;
+  margin-top: 2%;
+
+  .startbutton {
+    background-color: #500000;
+    color: whitesmoke;
+    border: 6px solid whitesmoke;
+    width: 7em;
+    height: 7em;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+    margin: 7px;
+    transition-duration: 0.5s;
+    border-radius: 50% !important;
+    cursor: pointer;
+  }
+  .stopbutton {
+    background-color: #500000;
+    color: whitesmoke;
+    border: 6px solid whitesmoke;
+    width: 7em;
+    height: 7em;
+    padding: 1em;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    line-height: 1em;
+    margin: 7px;
+    transition-duration: 0.5s;
+    border-radius: 50% !important;
+    cursor: pointer;
+  }
+  .startbutton:hover {
+    background-color: whitesmoke;
+    color: #500000;
+  }
+  .stopbutton:hover {
+    background-color: whitesmoke;
+    color: #500000;
+  }
+}
+// center page info regarding mode description
+form.info-list {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  font-size: 25px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-self: center;
+  justify-items: center;
+  color: whitesmoke;
+  list-style: none;
+  margin-top: -50px;
+
+  .mode-name {
+    width: auto;
+    height: auto;
+    margin: 80px;
+    margin-top: 90px;
+
+    .segment-info2 {
+      background-color: rgb(95, 21, 21);
+      border: 2px solid whitesmoke;
+      border-radius: 0%;
+      color: whitesmoke;
+      display: flex;
+      flex-wrap: wrap;
+      text-decoration: none;
+      align-items: center;
+      justify-content: left;
+      padding: 7px;
+      margin: 20px;
+      height: 60px;
+      width: auto;
+      font-size: 20px;
+    }
+  }
+}
+//back button
+section.backbutton {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+
+  .mainBack {
+    background-color: #500000;
+    color: whitesmoke;
+    border: 6px solid whitesmoke;
+    width: 150px;
+    height: 50px;
+    padding: 1em;
+    padding-top: 10%;
+    font: size 30px;
+    text-align: center;
+    line-height: 1.5em;
+    margin: 10px;
+    transition-duration: 0.5s;
+    border-radius: 50% !important;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .mainBack:hover {
+    background-color: whitesmoke;
+    color: #500000;
+  }
+}
